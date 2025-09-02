@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+background: black;
 }
 
 body {
@@ -26,18 +27,22 @@ body {
     box-shadow: 0 0 4px;
     width: 65%;
 }
+.text{
+    background: #f1f1f1;
+}
+.listtext{
+    background: #defde0;
+}
 .inledning{
     margin-left: auto;
     margin-right: auto;
-    background: #f1f1f1;
     font-family: 'Times New Roman', Times, sans-serif;
     font-size: 18px;
     text-align: center;
-    margin-top: 1rem;
+    background: #f1f1f1;
+    margin-top: 0.5rem;
     margin-bottom: 3rem;
     padding: 2rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 4px;
     width: 90%;
 }
 .header{
@@ -68,6 +73,7 @@ body {
     border-radius: 0.5rem;
     box-shadow: 0 0 4px;
     width: 45%;
+    background: #defde0;
 }
 ul{
     margin-left: 1.5rem;
